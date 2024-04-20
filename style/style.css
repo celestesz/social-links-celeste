@@ -6,22 +6,9 @@
     padding: 0px;
 }
 
-
-
-@font-face {
-    font-family:'Titulos' ;
-    src: url('../fontes/Rochaline-Regular.of') format('opentype');
-}
-
-
 @font-face {
     font-family: 'Tituloss';
     src: url('../fontes/KARMEN.ttf') format('truetype');
-}
-
-@font-face {
-    font-family:'Paragrafos' ;
-    src: url('../fontes/Themundayfreeversion-Regular.ttf') format('truetype');
 }
 
 
@@ -30,11 +17,7 @@
     --cor2:#7bae78;
     --cor3: #45642b;
     
-
-
-    --fonte-1: 'Rochaline';
     --fonte-2: 'Tituloss';
-    --fonte-3: 'Paragrafos' ;
     
 }
 
@@ -49,7 +32,6 @@ body {
     
     
 }
-
 
 main {
     background-color:var(--cor2) ;
@@ -72,9 +54,6 @@ h1 {
     color: #ffffff;
     padding-top: 20px;
 }
-
-
-
 
 .especial {
     font-family: cursive;
