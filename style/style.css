@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+@font-face {
+    font-family:'Titulos' ;
+    src: url('../fontes/Rochaline-Regular.of') format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Tituloss';
+    src: url('../fontes/KARMEN.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Paragrafos' ;
+    src: url('../fontes/Themundayfreeversion-Regular.ttf') format('truetype');
+}
+
+
+:root {
+    --cor1: #487a47;
+    --cor2:#7bae78;
+    --cor3: #45642b;
+    
+
+
+    --fonte-1: 'Rochaline';
+    --fonte-2: 'Tituloss';
+    --fonte-3: 'Paragrafos' ;
+    
+}
+
+img {
+    margin: auto;
+    display: block;
+    border-radius: 80px;
+}
+
+body {
+    background-color:var(--cor1);
+    
+    
+}
+
+
+main {
+    background-color:var(--cor2) ;
+    border-radius: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 30px;
+
+}
+
+h1 {
+
+    font-family:var(--fonte-2);
+    font-size: 3.1em;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+
+
+
+.especial {
+    font-family: cursive;
+    font-size: 0.9em;
+    padding-top: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: white ;  
+    padding-bottom: 30px;
+}
+
+.box {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: cursive ;
+  font-size: 1em;
+  text-align: center;
+  border-width: 10px;
+  background-color: var(--cor1);
+  border-style: solid;
+  border-color: #487a47bb;
+  border-radius: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  max-width: 250px;
+}
+
